@@ -1,0 +1,24 @@
+{
+    "name": "express-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "Ashutosh K Singh",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-rate-limit": "^5.1.3",
+        "helmet": "^4.2.0",
+        "morgan": "^1.10.0",
+        "serve-favicon": "^2.5.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
